@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seoul City</title>
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Top-banner -->
+      <div id="top-banner">
+        <img src="./images/top-banner.jpeg" alt="서울에 어떤 신나는 일이? 2022년 서울 가을축제 바로가기" />
+      </div>
+
+      <div class="inner">
+        <div class="menu-container">
+          <a href="/" class="logo">
+            <img src="./images/seoul-logo.png" alt="서울특별시 로고" />
+          </a>
+          <ul class="menu">
+            <li>서울소식</li>
+            <li>시민참여</li>
+            <li>분야별정보</li>
+            <li>서울소개</li>
+            <li>부서안내</li>
+            <li>정보공개</li>
+            <li>응답소</li>
+          </ul>
+          <ul class="sign-menu">
+            <li>로그인</li>
+            <li>나의서울</li>
+            <li>전자우편</li>
+          </ul>
+        </div>
+        <div class="select-lang">
+          <select name="lang" class="lang">
+            <option value="http://english.seoul.go.kr/?SSid=101_01">ENGLISH</option>
+            <option value="http://japanese.seoul.go.kr/?SSid=101_02">日本語</option>
+            <option value="http://chinese.seoul.go.kr/?SSid=101_04">简体中文</option>
+            <option value="http://tchinese.seoul.go.kr/?SSid=101_03">繁体中文</option>
+            <option value="http://world.seoul.go.kr/">WorldWide</option>
+          </select>
+          <input type="button" value="GO" title="서울시 다국어 홈페이지로 이동-새창" class="select_btn" />
+        </div>
+        <div class="search-container">
+          <a href="/" class="slogan">
+            <img src="./images/seoul-slogan.png" alt="서울시 슬로건" />
+          </a>
+          <div class="search">
+            <input type="text" class="search-input" placeholder="검색어를 입력해 주세요" />
+            <img src="./images/icon-keyboard.png" alt="" class="keyboard" />
+
+            <button class="search-btn btn">
+              <div class="material-icons">search</div>
+            </button>
+          </div>
+
+          <a href="https://www.weather.go.kr" target="_blank" class="info_weather">
+            <img src="./images/weathericon_new_d0.png" alt="" />
+            <span class="deg">14.6℃ </span>
+            <span class="we-text">맑음</span>
+            <span>미세먼지(좋음)</span>
+            <span>초미세먼지(좋음)</span>
+          </a>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
